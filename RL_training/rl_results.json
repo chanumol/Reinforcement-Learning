@@ -1,0 +1,5505 @@
+{
+  "status": "running (ep 530/4000)",
+  "recommended": {
+    "cpu": 7,
+    "cluster": "Prime",
+    "cpu_freq_hz": 4243200,
+    "cpu_freq_mhz": 4243.2,
+    "ddr_hz": 2092000,
+    "ddr_mhz": 2092.0,
+    "llcc_hz": 933000,
+    "llcc_mhz": 933.0,
+    "ddrqos": 1,
+    "taskset_mask": "80"
+  },
+  "avg_latency_ns": 74.36500000000001,
+  "explored": 485,
+  "total_actions": 47718,
+  "buffer_kb": 40960,
+  "episodes_completed": 530,
+  "episodes_total": 4000,
+  "top_results": [
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "avg_latency_ns": 74.36500000000001,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 4435200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 74.78,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "avg_latency_ns": 75.575,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 75.8,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.03,
+      "runs": 1
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.08,
+      "runs": 1
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.125,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.23,
+      "runs": 1
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.28999999999999,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.64,
+      "runs": 2
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "avg_latency_ns": 76.945,
+      "runs": 2
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 3667200,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "avg_latency_ns": 77.06,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 77.86,
+      "runs": 1
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "avg_latency_ns": 77.89,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 77.89,
+      "runs": 2
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "avg_latency_ns": 78.10499999999999,
+      "runs": 2
+    },
+    {
+      "cpu": 6,
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 78.22,
+      "runs": 1
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 2630400,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "avg_latency_ns": 78.8,
+      "runs": 1
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3091200,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "avg_latency_ns": 79.22,
+      "runs": 1
+    },
+    {
+      "cpu": 7,
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "avg_latency_ns": 79.565,
+      "runs": 2
+    }
+  ],
+  "history": [
+    {
+      "episode": 1,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 96.21
+    },
+    {
+      "episode": 2,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 130.57
+    },
+    {
+      "episode": 3,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 126.56
+    },
+    {
+      "episode": 4,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 109.25
+    },
+    {
+      "episode": 5,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 87.15
+    },
+    {
+      "episode": 6,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 110.99
+    },
+    {
+      "episode": 7,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 78.49
+    },
+    {
+      "episode": 8,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 158.35
+    },
+    {
+      "episode": 9,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 156.52
+    },
+    {
+      "episode": 10,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 384000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 134.42
+    },
+    {
+      "episode": 11,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 129.8
+    },
+    {
+      "episode": 12,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 547000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 94.41
+    },
+    {
+      "episode": 13,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 110.71
+    },
+    {
+      "episode": 14,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 5333000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 111.43
+    },
+    {
+      "episode": 15,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 116.55
+    },
+    {
+      "episode": 16,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 79.0
+    },
+    {
+      "episode": 17,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 109.48
+    },
+    {
+      "episode": 18,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 110.36
+    },
+    {
+      "episode": 19,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 102.98
+    },
+    {
+      "episode": 20,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 168.48
+    },
+    {
+      "episode": 21,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 93.58
+    },
+    {
+      "episode": 22,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 104.26
+    },
+    {
+      "episode": 23,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 93.35
+    },
+    {
+      "episode": 24,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 108.08
+    },
+    {
+      "episode": 25,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 106.46
+    },
+    {
+      "episode": 26,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 288000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 83.37
+    },
+    {
+      "episode": 27,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 132.82
+    },
+    {
+      "episode": 28,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 89.0
+    },
+    {
+      "episode": 29,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 80.77
+    },
+    {
+      "episode": 30,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 103.67
+    },
+    {
+      "episode": 31,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 103.18
+    },
+    {
+      "episode": 32,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 115.06
+    },
+    {
+      "episode": 33,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 112.93
+    },
+    {
+      "episode": 34,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 101.0
+    },
+    {
+      "episode": 35,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 82.75
+    },
+    {
+      "episode": 36,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 97.18
+    },
+    {
+      "episode": 37,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 120.72
+    },
+    {
+      "episode": 38,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 547000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 95.63
+    },
+    {
+      "episode": 39,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 109.91
+    },
+    {
+      "episode": 40,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 180.18
+    },
+    {
+      "episode": 41,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 129.79
+    },
+    {
+      "episode": 42,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 93.52
+    },
+    {
+      "episode": 43,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 116.03
+    },
+    {
+      "episode": 44,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 103.18
+    },
+    {
+      "episode": 45,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3628800,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 83.42
+    },
+    {
+      "episode": 46,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 159.43
+    },
+    {
+      "episode": 47,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 129.24
+    },
+    {
+      "episode": 48,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 2736000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 91.92
+    },
+    {
+      "episode": 49,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 117.85
+    },
+    {
+      "episode": 50,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 576000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 85.13
+    },
+    {
+      "episode": 51,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 98.41
+    },
+    {
+      "episode": 52,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3475200,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 94.53
+    },
+    {
+      "episode": 53,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 139.7
+    },
+    {
+      "episode": 54,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 125.57
+    },
+    {
+      "episode": 55,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 144.44
+    },
+    {
+      "episode": 56,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 93.51
+    },
+    {
+      "episode": 57,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 84.89
+    },
+    {
+      "episode": 58,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 104.36
+    },
+    {
+      "episode": 59,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 106.35
+    },
+    {
+      "episode": 60,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 112.28
+    },
+    {
+      "episode": 61,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 110.92
+    },
+    {
+      "episode": 62,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 116.3
+    },
+    {
+      "episode": 63,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3667200,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 76.87
+    },
+    {
+      "episode": 64,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 90.85
+    },
+    {
+      "episode": 65,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 114.41
+    },
+    {
+      "episode": 66,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 126.52
+    },
+    {
+      "episode": 67,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 132.11
+    },
+    {
+      "episode": 68,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 114.69
+    },
+    {
+      "episode": 69,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 89.96
+    },
+    {
+      "episode": 70,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 110.78
+    },
+    {
+      "episode": 71,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 142.86
+    },
+    {
+      "episode": 72,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 110.42
+    },
+    {
+      "episode": 73,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 154.6
+    },
+    {
+      "episode": 74,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 104.47
+    },
+    {
+      "episode": 75,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 4780000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 91.91
+    },
+    {
+      "episode": 76,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 88.95
+    },
+    {
+      "episode": 77,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 139.31
+    },
+    {
+      "episode": 78,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 104.35
+    },
+    {
+      "episode": 79,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 143.62
+    },
+    {
+      "episode": 80,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 115.13
+    },
+    {
+      "episode": 81,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3782400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 99.97
+    },
+    {
+      "episode": 82,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 547000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 87.22
+    },
+    {
+      "episode": 83,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 114.76
+    },
+    {
+      "episode": 84,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 117.74
+    },
+    {
+      "episode": 85,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 121.58
+    },
+    {
+      "episode": 86,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2630400,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 103.99
+    },
+    {
+      "episode": 87,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 126.34
+    },
+    {
+      "episode": 88,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 133.26
+    },
+    {
+      "episode": 89,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 76.78
+    },
+    {
+      "episode": 90,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 156.41
+    },
+    {
+      "episode": 91,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 88.5
+    },
+    {
+      "episode": 92,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3475200,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 117.06
+    },
+    {
+      "episode": 93,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 78.64
+    },
+    {
+      "episode": 94,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 84.57
+    },
+    {
+      "episode": 95,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 140.04
+    },
+    {
+      "episode": 96,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 4780000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 91.52
+    },
+    {
+      "episode": 97,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 77.14
+    },
+    {
+      "episode": 98,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 518400,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 125.81
+    },
+    {
+      "episode": 99,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 1555000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 87.3
+    },
+    {
+      "episode": 100,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 90.19
+    },
+    {
+      "episode": 101,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4012800,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 98.06
+    },
+    {
+      "episode": 102,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2860800,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 80.11
+    },
+    {
+      "episode": 103,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 121.2
+    },
+    {
+      "episode": 104,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 288000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 123.27
+    },
+    {
+      "episode": 105,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 102.73
+    },
+    {
+      "episode": 106,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 518400,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 125.75
+    },
+    {
+      "episode": 107,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 768000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 123.08
+    },
+    {
+      "episode": 108,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 100.12
+    },
+    {
+      "episode": 109,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 142.69
+    },
+    {
+      "episode": 110,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3628800,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 83.55
+    },
+    {
+      "episode": 111,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3782400,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 100.83
+    },
+    {
+      "episode": 112,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 1708000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 84.34
+    },
+    {
+      "episode": 113,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 181.41
+    },
+    {
+      "episode": 114,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 98.37
+    },
+    {
+      "episode": 115,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 127.01
+    },
+    {
+      "episode": 116,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 112.08
+    },
+    {
+      "episode": 117,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 97.04
+    },
+    {
+      "episode": 118,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 768000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 105.5
+    },
+    {
+      "episode": 119,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 91.12
+    },
+    {
+      "episode": 120,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 101.4
+    },
+    {
+      "episode": 121,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 190.99
+    },
+    {
+      "episode": 122,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 113.53
+    },
+    {
+      "episode": 123,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 136.61
+    },
+    {
+      "episode": 124,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 160.29
+    },
+    {
+      "episode": 125,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 100.4
+    },
+    {
+      "episode": 126,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 110.16
+    },
+    {
+      "episode": 127,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 125.77
+    },
+    {
+      "episode": 128,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3667200,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 100.7
+    },
+    {
+      "episode": 129,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 108.46
+    },
+    {
+      "episode": 130,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 91.75
+    },
+    {
+      "episode": 131,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 140.09
+    },
+    {
+      "episode": 132,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 122.98
+    },
+    {
+      "episode": 133,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 131.57
+    },
+    {
+      "episode": 134,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 140.72
+    },
+    {
+      "episode": 135,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 138.05
+    },
+    {
+      "episode": 136,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 112.64
+    },
+    {
+      "episode": 137,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 107.33
+    },
+    {
+      "episode": 138,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 116.7
+    },
+    {
+      "episode": 139,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 84.6
+    },
+    {
+      "episode": 140,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 101.94
+    },
+    {
+      "episode": 141,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 121.6
+    },
+    {
+      "episode": 142,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 106.69
+    },
+    {
+      "episode": 143,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 122.37
+    },
+    {
+      "episode": 144,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 135.85
+    },
+    {
+      "episode": 145,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 159.76
+    },
+    {
+      "episode": 146,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 75.45
+    },
+    {
+      "episode": 147,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 135.58
+    },
+    {
+      "episode": 148,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 153.39
+    },
+    {
+      "episode": 149,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 96.05
+    },
+    {
+      "episode": 150,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 384000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 98.52
+    },
+    {
+      "episode": 151,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 112.02
+    },
+    {
+      "episode": 152,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 124.09
+    },
+    {
+      "episode": 153,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 110.68
+    },
+    {
+      "episode": 154,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 89.79
+    },
+    {
+      "episode": 155,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 146.0
+    },
+    {
+      "episode": 156,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 159.8
+    },
+    {
+      "episode": 157,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 82.94
+    },
+    {
+      "episode": 158,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 125.94
+    },
+    {
+      "episode": 159,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 139.61
+    },
+    {
+      "episode": 160,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4435200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 74.8
+    },
+    {
+      "episode": 161,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 97.71
+    },
+    {
+      "episode": 162,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 109.83
+    },
+    {
+      "episode": 163,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 97.88
+    },
+    {
+      "episode": 164,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 88.83
+    },
+    {
+      "episode": 165,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 104.22
+    },
+    {
+      "episode": 166,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 125.03
+    },
+    {
+      "episode": 167,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 118.79
+    },
+    {
+      "episode": 168,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 114.88
+    },
+    {
+      "episode": 169,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 159.46
+    },
+    {
+      "episode": 170,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 140.18
+    },
+    {
+      "episode": 171,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 672000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 102.28
+    },
+    {
+      "episode": 172,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 127.36
+    },
+    {
+      "episode": 173,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 78.22
+    },
+    {
+      "episode": 174,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 99.81
+    },
+    {
+      "episode": 175,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 90.02
+    },
+    {
+      "episode": 176,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3744000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 113.37
+    },
+    {
+      "episode": 177,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 132.45
+    },
+    {
+      "episode": 178,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 88.72
+    },
+    {
+      "episode": 179,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 108.9
+    },
+    {
+      "episode": 180,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 85.91
+    },
+    {
+      "episode": 181,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 547000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 148.94
+    },
+    {
+      "episode": 182,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 112.35
+    },
+    {
+      "episode": 183,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 80.1
+    },
+    {
+      "episode": 184,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 122.96
+    },
+    {
+      "episode": 185,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 89.81
+    },
+    {
+      "episode": 186,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 139.45
+    },
+    {
+      "episode": 187,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 113.06
+    },
+    {
+      "episode": 188,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 126.26
+    },
+    {
+      "episode": 189,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 146.82
+    },
+    {
+      "episode": 190,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 115.47
+    },
+    {
+      "episode": 191,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 288000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 106.6
+    },
+    {
+      "episode": 192,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 76.83
+    },
+    {
+      "episode": 193,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 87.56
+    },
+    {
+      "episode": 194,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 107.68
+    },
+    {
+      "episode": 195,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 84.0
+    },
+    {
+      "episode": 196,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 82.77
+    },
+    {
+      "episode": 197,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3628800,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 83.96
+    },
+    {
+      "episode": 198,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 76.5
+    },
+    {
+      "episode": 199,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 167.89
+    },
+    {
+      "episode": 200,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 111.22
+    },
+    {
+      "episode": 201,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3782400,
+      "ddr_hz": 4780000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 99.36
+    },
+    {
+      "episode": 202,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 144.81
+    },
+    {
+      "episode": 203,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2630400,
+      "ddr_hz": 547000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 104.51
+    },
+    {
+      "episode": 204,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 1353000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 91.93
+    },
+    {
+      "episode": 205,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 101.31
+    },
+    {
+      "episode": 206,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 122.3
+    },
+    {
+      "episode": 207,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 672000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 126.59
+    },
+    {
+      "episode": 208,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 121.37
+    },
+    {
+      "episode": 209,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 103.83
+    },
+    {
+      "episode": 210,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 118.88
+    },
+    {
+      "episode": 211,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 151.94
+    },
+    {
+      "episode": 212,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 132.26
+    },
+    {
+      "episode": 213,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 547000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 86.88
+    },
+    {
+      "episode": 214,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 105.94
+    },
+    {
+      "episode": 215,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 147.8
+    },
+    {
+      "episode": 216,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 125.23
+    },
+    {
+      "episode": 217,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 127.96
+    },
+    {
+      "episode": 218,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 547000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 100.82
+    },
+    {
+      "episode": 219,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 116.56
+    },
+    {
+      "episode": 220,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 94.46
+    },
+    {
+      "episode": 221,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 111.79
+    },
+    {
+      "episode": 222,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 128.58
+    },
+    {
+      "episode": 223,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 140.35
+    },
+    {
+      "episode": 224,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 99.84
+    },
+    {
+      "episode": 225,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 94.12
+    },
+    {
+      "episode": 226,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 136.63
+    },
+    {
+      "episode": 227,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 1555000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 82.53
+    },
+    {
+      "episode": 228,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 85.13
+    },
+    {
+      "episode": 229,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 91.83
+    },
+    {
+      "episode": 230,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 113.08
+    },
+    {
+      "episode": 231,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 91.71
+    },
+    {
+      "episode": 232,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 92.83
+    },
+    {
+      "episode": 233,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 149.34
+    },
+    {
+      "episode": 234,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 114.88
+    },
+    {
+      "episode": 235,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 101.94
+    },
+    {
+      "episode": 236,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 112.24
+    },
+    {
+      "episode": 237,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 112.85
+    },
+    {
+      "episode": 238,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 83.29
+    },
+    {
+      "episode": 239,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 107.79
+    },
+    {
+      "episode": 240,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 115.56
+    },
+    {
+      "episode": 241,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 135.75
+    },
+    {
+      "episode": 242,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 112.85
+    },
+    {
+      "episode": 243,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 98.04
+    },
+    {
+      "episode": 244,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 131.34
+    },
+    {
+      "episode": 245,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 115.8
+    },
+    {
+      "episode": 246,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 89.03
+    },
+    {
+      "episode": 247,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 76.03
+    },
+    {
+      "episode": 248,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 179.75
+    },
+    {
+      "episode": 249,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 123.79
+    },
+    {
+      "episode": 250,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4435200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 74.76
+    },
+    {
+      "episode": 251,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2860800,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 102.58
+    },
+    {
+      "episode": 252,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 105.55
+    },
+    {
+      "episode": 253,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 85.51
+    },
+    {
+      "episode": 254,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 116.21
+    },
+    {
+      "episode": 255,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 76.33
+    },
+    {
+      "episode": 256,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 115.93
+    },
+    {
+      "episode": 257,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 112.46
+    },
+    {
+      "episode": 258,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 133.28
+    },
+    {
+      "episode": 259,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 89.98
+    },
+    {
+      "episode": 260,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 77.99
+    },
+    {
+      "episode": 261,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 124.7
+    },
+    {
+      "episode": 262,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 90.56
+    },
+    {
+      "episode": 263,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 127.24
+    },
+    {
+      "episode": 264,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3091200,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 102.73
+    },
+    {
+      "episode": 265,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 93.07
+    },
+    {
+      "episode": 266,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 84.15
+    },
+    {
+      "episode": 267,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 107.37
+    },
+    {
+      "episode": 268,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 133.85
+    },
+    {
+      "episode": 269,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 547000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 100.98
+    },
+    {
+      "episode": 270,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 102.46
+    },
+    {
+      "episode": 271,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 74.53
+    },
+    {
+      "episode": 272,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 93.23
+    },
+    {
+      "episode": 273,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 114.13
+    },
+    {
+      "episode": 274,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 100.97
+    },
+    {
+      "episode": 275,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 85.16
+    },
+    {
+      "episode": 276,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 92.79
+    },
+    {
+      "episode": 277,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 97.92
+    },
+    {
+      "episode": 278,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 91.11
+    },
+    {
+      "episode": 279,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 125.68
+    },
+    {
+      "episode": 280,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 81.32
+    },
+    {
+      "episode": 281,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 133.47
+    },
+    {
+      "episode": 282,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 75.7
+    },
+    {
+      "episode": 283,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 101.01
+    },
+    {
+      "episode": 284,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 92.76
+    },
+    {
+      "episode": 285,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 107.46
+    },
+    {
+      "episode": 286,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 85.09
+    },
+    {
+      "episode": 287,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 99.96
+    },
+    {
+      "episode": 288,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 143.0
+    },
+    {
+      "episode": 289,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 122.18
+    },
+    {
+      "episode": 290,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 99.74
+    },
+    {
+      "episode": 291,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 288000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 113.77
+    },
+    {
+      "episode": 292,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 88.84
+    },
+    {
+      "episode": 293,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 89.79
+    },
+    {
+      "episode": 294,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 109.29
+    },
+    {
+      "episode": 295,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 125.6
+    },
+    {
+      "episode": 296,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 115.93
+    },
+    {
+      "episode": 297,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 98.02
+    },
+    {
+      "episode": 298,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 576000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 82.15
+    },
+    {
+      "episode": 299,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 126.31
+    },
+    {
+      "episode": 300,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 82.94
+    },
+    {
+      "episode": 301,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 199.09
+    },
+    {
+      "episode": 302,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 143.31
+    },
+    {
+      "episode": 303,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 129.13
+    },
+    {
+      "episode": 304,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3744000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 113.23
+    },
+    {
+      "episode": 305,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 125.78
+    },
+    {
+      "episode": 306,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 168.04
+    },
+    {
+      "episode": 307,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 116.24
+    },
+    {
+      "episode": 308,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 547000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 132.48
+    },
+    {
+      "episode": 309,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 547000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 116.22
+    },
+    {
+      "episode": 310,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 95.36
+    },
+    {
+      "episode": 311,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 98.22
+    },
+    {
+      "episode": 312,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 77.86
+    },
+    {
+      "episode": 313,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 4780000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 91.46
+    },
+    {
+      "episode": 314,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 116.61
+    },
+    {
+      "episode": 315,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 126.81
+    },
+    {
+      "episode": 316,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 84.76
+    },
+    {
+      "episode": 317,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 92.0
+    },
+    {
+      "episode": 318,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3475200,
+      "ddr_hz": 2736000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 110.28
+    },
+    {
+      "episode": 319,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 124.97
+    },
+    {
+      "episode": 320,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 384000,
+      "ddr_hz": 547000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 88.26
+    },
+    {
+      "episode": 321,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 98.57
+    },
+    {
+      "episode": 322,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 179.79
+    },
+    {
+      "episode": 323,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 102.58
+    },
+    {
+      "episode": 324,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 96.96
+    },
+    {
+      "episode": 325,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 87.3
+    },
+    {
+      "episode": 326,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3916800,
+      "ddr_hz": 4224000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 86.79
+    },
+    {
+      "episode": 327,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 103.99
+    },
+    {
+      "episode": 328,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 119.7
+    },
+    {
+      "episode": 329,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 119.23
+    },
+    {
+      "episode": 330,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 106.77
+    },
+    {
+      "episode": 331,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 128.0
+    },
+    {
+      "episode": 332,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 95.95
+    },
+    {
+      "episode": 333,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 127.23
+    },
+    {
+      "episode": 334,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 117.39
+    },
+    {
+      "episode": 335,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 105.88
+    },
+    {
+      "episode": 336,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 112.95
+    },
+    {
+      "episode": 337,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3628800,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 107.66
+    },
+    {
+      "episode": 338,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 77.06
+    },
+    {
+      "episode": 339,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 547000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 95.1
+    },
+    {
+      "episode": 340,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3782400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 100.19
+    },
+    {
+      "episode": 341,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 101.4
+    },
+    {
+      "episode": 342,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 1353000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 97.68
+    },
+    {
+      "episode": 343,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 123.73
+    },
+    {
+      "episode": 344,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 87.22
+    },
+    {
+      "episode": 345,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 111.38
+    },
+    {
+      "episode": 346,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 93.6
+    },
+    {
+      "episode": 347,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 99.02
+    },
+    {
+      "episode": 348,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 120.07
+    },
+    {
+      "episode": 349,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 99.0
+    },
+    {
+      "episode": 350,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 91.08
+    },
+    {
+      "episode": 351,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 131.5
+    },
+    {
+      "episode": 352,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 116.51
+    },
+    {
+      "episode": 353,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 77.29
+    },
+    {
+      "episode": 354,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 134.04
+    },
+    {
+      "episode": 355,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 136.83
+    },
+    {
+      "episode": 356,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 98.07
+    },
+    {
+      "episode": 357,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 110.93
+    },
+    {
+      "episode": 358,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3628800,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 114.38
+    },
+    {
+      "episode": 359,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 125.65
+    },
+    {
+      "episode": 360,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 93.41
+    },
+    {
+      "episode": 361,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 76.08
+    },
+    {
+      "episode": 362,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 576000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 84.4
+    },
+    {
+      "episode": 363,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 109.91
+    },
+    {
+      "episode": 364,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 97.35
+    },
+    {
+      "episode": 365,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 101.35
+    },
+    {
+      "episode": 366,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 118.99
+    },
+    {
+      "episode": 367,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 85.43
+    },
+    {
+      "episode": 368,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 76.86
+    },
+    {
+      "episode": 369,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 126.42
+    },
+    {
+      "episode": 370,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 91.17
+    },
+    {
+      "episode": 371,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3628800,
+      "ddr_hz": 4780000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 108.02
+    },
+    {
+      "episode": 372,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 177.85
+    },
+    {
+      "episode": 373,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 127.21
+    },
+    {
+      "episode": 374,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 95.59
+    },
+    {
+      "episode": 375,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 3686000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 75.92
+    },
+    {
+      "episode": 376,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2630400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 81.49
+    },
+    {
+      "episode": 377,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 1708000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 118.8
+    },
+    {
+      "episode": 378,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 159.9
+    },
+    {
+      "episode": 379,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 121.69
+    },
+    {
+      "episode": 380,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 130.6
+    },
+    {
+      "episode": 381,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 113.59
+    },
+    {
+      "episode": 382,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 112.16
+    },
+    {
+      "episode": 383,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 110.36
+    },
+    {
+      "episode": 384,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 518400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 130.29
+    },
+    {
+      "episode": 385,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 75.72
+    },
+    {
+      "episode": 386,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 89.19
+    },
+    {
+      "episode": 387,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 91.81
+    },
+    {
+      "episode": 388,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 118.75
+    },
+    {
+      "episode": 389,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1632000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1066000,
+      "ddrqos": 0,
+      "latency_ns": 143.35
+    },
+    {
+      "episode": 390,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 136.47
+    },
+    {
+      "episode": 391,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 87.27
+    },
+    {
+      "episode": 392,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 139.64
+    },
+    {
+      "episode": 393,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 95.73
+    },
+    {
+      "episode": 394,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 76.49
+    },
+    {
+      "episode": 395,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 4780000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 109.09
+    },
+    {
+      "episode": 396,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 115.47
+    },
+    {
+      "episode": 397,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 98.25
+    },
+    {
+      "episode": 398,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3667200,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 77.25
+    },
+    {
+      "episode": 399,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 113.08
+    },
+    {
+      "episode": 400,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 126.18
+    },
+    {
+      "episode": 401,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 126.93
+    },
+    {
+      "episode": 402,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 115.99
+    },
+    {
+      "episode": 403,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 89.67
+    },
+    {
+      "episode": 404,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 103.57
+    },
+    {
+      "episode": 405,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 159.19
+    },
+    {
+      "episode": 406,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2860800,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 79.96
+    },
+    {
+      "episode": 407,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 113.96
+    },
+    {
+      "episode": 408,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 124.9
+    },
+    {
+      "episode": 409,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 163.2
+    },
+    {
+      "episode": 410,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 81.84
+    },
+    {
+      "episode": 411,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 768000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 102.54
+    },
+    {
+      "episode": 412,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3091200,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 79.22
+    },
+    {
+      "episode": 413,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 112.66
+    },
+    {
+      "episode": 414,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 130.57
+    },
+    {
+      "episode": 415,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 86.56
+    },
+    {
+      "episode": 416,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 115.87
+    },
+    {
+      "episode": 417,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 119.35
+    },
+    {
+      "episode": 418,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 78.08
+    },
+    {
+      "episode": 419,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 135.8
+    },
+    {
+      "episode": 420,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3916800,
+      "ddr_hz": 547000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 112.51
+    },
+    {
+      "episode": 421,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 547000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 120.97
+    },
+    {
+      "episode": 422,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 99.78
+    },
+    {
+      "episode": 423,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 115.4
+    },
+    {
+      "episode": 424,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 78.13
+    },
+    {
+      "episode": 425,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 123.47
+    },
+    {
+      "episode": 426,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 150.09
+    },
+    {
+      "episode": 427,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 115.7
+    },
+    {
+      "episode": 428,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 122.67
+    },
+    {
+      "episode": 429,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 148.58
+    },
+    {
+      "episode": 430,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 150.75
+    },
+    {
+      "episode": 431,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 115.84
+    },
+    {
+      "episode": 432,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 107.78
+    },
+    {
+      "episode": 433,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 89.33
+    },
+    {
+      "episode": 434,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 92.59
+    },
+    {
+      "episode": 435,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 83.61
+    },
+    {
+      "episode": 436,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 99.4
+    },
+    {
+      "episode": 437,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 133.2
+    },
+    {
+      "episode": 438,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 384000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 96.05
+    },
+    {
+      "episode": 439,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4128000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 75.11
+    },
+    {
+      "episode": 440,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 3187000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 107.56
+    },
+    {
+      "episode": 441,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 88.43
+    },
+    {
+      "episode": 442,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 4224000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 101.35
+    },
+    {
+      "episode": 443,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 134.0
+    },
+    {
+      "episode": 444,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2630400,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 82.83
+    },
+    {
+      "episode": 445,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 74.2
+    },
+    {
+      "episode": 446,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 103.42
+    },
+    {
+      "episode": 447,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 127.58
+    },
+    {
+      "episode": 448,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 103.97
+    },
+    {
+      "episode": 449,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 130.06
+    },
+    {
+      "episode": 450,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 83.59
+    },
+    {
+      "episode": 451,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 101.32
+    },
+    {
+      "episode": 452,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 113.54
+    },
+    {
+      "episode": 453,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 103.88
+    },
+    {
+      "episode": 454,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1440000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 159.45
+    },
+    {
+      "episode": 455,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3283200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 90.15
+    },
+    {
+      "episode": 456,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 129.34
+    },
+    {
+      "episode": 457,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3667200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 99.2
+    },
+    {
+      "episode": 458,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 100.9
+    },
+    {
+      "episode": 459,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 91.36
+    },
+    {
+      "episode": 460,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 1708000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 88.0
+    },
+    {
+      "episode": 461,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 2736000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 111.92
+    },
+    {
+      "episode": 462,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4358400,
+      "ddr_hz": 2736000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 97.25
+    },
+    {
+      "episode": 463,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 82.26
+    },
+    {
+      "episode": 464,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 117.74
+    },
+    {
+      "episode": 465,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 105.61
+    },
+    {
+      "episode": 466,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 129.54
+    },
+    {
+      "episode": 467,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 547000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 106.14
+    },
+    {
+      "episode": 468,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2496000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 90.85
+    },
+    {
+      "episode": 469,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 547000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 142.95
+    },
+    {
+      "episode": 470,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 100.08
+    },
+    {
+      "episode": 471,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 117.8
+    },
+    {
+      "episode": 472,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2822400,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 112.23
+    },
+    {
+      "episode": 473,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 87.49
+    },
+    {
+      "episode": 474,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 84.01
+    },
+    {
+      "episode": 475,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 384000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 114.03
+    },
+    {
+      "episode": 476,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 123.36
+    },
+    {
+      "episode": 477,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 87.18
+    },
+    {
+      "episode": 478,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3744000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 107.16
+    },
+    {
+      "episode": 479,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3859200,
+      "ddr_hz": 547000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 85.28
+    },
+    {
+      "episode": 480,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 148.49
+    },
+    {
+      "episode": 481,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 547000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 88.49
+    },
+    {
+      "episode": 482,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 5333000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 111.38
+    },
+    {
+      "episode": 483,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 88.98
+    },
+    {
+      "episode": 484,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 547000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 159.51
+    },
+    {
+      "episode": 485,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 933000,
+      "ddrqos": 0,
+      "latency_ns": 129.06
+    },
+    {
+      "episode": 486,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 97.34
+    },
+    {
+      "episode": 487,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4243200,
+      "ddr_hz": 3187000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 97.74
+    },
+    {
+      "episode": 488,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1536000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 95.43
+    },
+    {
+      "episode": 489,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 288000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 106.38
+    },
+    {
+      "episode": 490,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 148.49
+    },
+    {
+      "episode": 491,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2592000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 102.72
+    },
+    {
+      "episode": 492,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3552000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 77.79
+    },
+    {
+      "episode": 493,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2016000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 82.48
+    },
+    {
+      "episode": 494,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 1248000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 82.44
+    },
+    {
+      "episode": 495,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 288000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 83.72
+    },
+    {
+      "episode": 496,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 93.12
+    },
+    {
+      "episode": 497,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3916800,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 81.71
+    },
+    {
+      "episode": 498,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1824000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 93.53
+    },
+    {
+      "episode": 499,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 127.62
+    },
+    {
+      "episode": 500,
+      "cpu": 6,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3782400,
+      "ddr_hz": 1353000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 100.82
+    },
+    {
+      "episode": 501,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 5333000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 111.15
+    },
+    {
+      "episode": 502,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2707200,
+      "ddr_hz": 4780000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 114.01
+    },
+    {
+      "episode": 503,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 3187000,
+      "llcc_hz": 282000,
+      "ddrqos": 0,
+      "latency_ns": 124.89
+    },
+    {
+      "episode": 504,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 3686000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 88.24
+    },
+    {
+      "episode": 505,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1152000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 1350000,
+      "ddrqos": 0,
+      "latency_ns": 125.32
+    },
+    {
+      "episode": 506,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 864000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 168.5
+    },
+    {
+      "episode": 507,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 547000,
+      "llcc_hz": 1211000,
+      "ddrqos": 1,
+      "latency_ns": 88.84
+    },
+    {
+      "episode": 508,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 4435200,
+      "ddr_hz": 2092000,
+      "llcc_hz": 533000,
+      "ddrqos": 0,
+      "latency_ns": 96.59
+    },
+    {
+      "episode": 509,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 101.16
+    },
+    {
+      "episode": 510,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2400000,
+      "ddr_hz": 3187000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 104.53
+    },
+    {
+      "episode": 511,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1344000,
+      "ddr_hz": 1555000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 134.56
+    },
+    {
+      "episode": 512,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2208000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 98.21
+    },
+    {
+      "episode": 513,
+      "cpu": 4,
+      "cluster": "Gold",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 95.1
+    },
+    {
+      "episode": 514,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 4780000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 91.66
+    },
+    {
+      "episode": 515,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 2630400,
+      "ddr_hz": 5333000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 78.8
+    },
+    {
+      "episode": 516,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3513600,
+      "ddr_hz": 2092000,
+      "llcc_hz": 600000,
+      "ddrqos": 0,
+      "latency_ns": 108.97
+    },
+    {
+      "episode": 517,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3168000,
+      "ddr_hz": 4224000,
+      "llcc_hz": 282000,
+      "ddrqos": 1,
+      "latency_ns": 88.04
+    },
+    {
+      "episode": 518,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3398400,
+      "ddr_hz": 1708000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 91.08
+    },
+    {
+      "episode": 519,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3897600,
+      "ddr_hz": 3686000,
+      "llcc_hz": 350000,
+      "ddrqos": 1,
+      "latency_ns": 76.23
+    },
+    {
+      "episode": 520,
+      "cpu": 1,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2937600,
+      "ddr_hz": 4780000,
+      "llcc_hz": 806000,
+      "ddrqos": 1,
+      "latency_ns": 88.02
+    },
+    {
+      "episode": 521,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3052800,
+      "ddr_hz": 4780000,
+      "llcc_hz": 806000,
+      "ddrqos": 0,
+      "latency_ns": 126.43
+    },
+    {
+      "episode": 522,
+      "cpu": 5,
+      "cluster": "Gold",
+      "cpu_freq_hz": 1056000,
+      "ddr_hz": 2736000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 101.86
+    },
+    {
+      "episode": 523,
+      "cpu": 3,
+      "cluster": "Gold",
+      "cpu_freq_hz": 3916800,
+      "ddr_hz": 4224000,
+      "llcc_hz": 933000,
+      "ddrqos": 1,
+      "latency_ns": 81.08
+    },
+    {
+      "episode": 524,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2112000,
+      "ddr_hz": 2092000,
+      "llcc_hz": 1350000,
+      "ddrqos": 1,
+      "latency_ns": 110.81
+    },
+    {
+      "episode": 525,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 3475200,
+      "ddr_hz": 547000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 95.89
+    },
+    {
+      "episode": 526,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 960000,
+      "ddr_hz": 4780000,
+      "llcc_hz": 350000,
+      "ddrqos": 0,
+      "latency_ns": 183.43
+    },
+    {
+      "episode": 527,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1728000,
+      "ddr_hz": 1708000,
+      "llcc_hz": 1066000,
+      "ddrqos": 1,
+      "latency_ns": 113.5
+    },
+    {
+      "episode": 528,
+      "cpu": 0,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 1920000,
+      "ddr_hz": 1353000,
+      "llcc_hz": 600000,
+      "ddrqos": 1,
+      "latency_ns": 116.0
+    },
+    {
+      "episode": 529,
+      "cpu": 7,
+      "cluster": "Prime",
+      "cpu_freq_hz": 3321600,
+      "ddr_hz": 1555000,
+      "llcc_hz": 1211000,
+      "ddrqos": 0,
+      "latency_ns": 100.31
+    },
+    {
+      "episode": 530,
+      "cpu": 2,
+      "cluster": "LITTLE",
+      "cpu_freq_hz": 2304000,
+      "ddr_hz": 3686000,
+      "llcc_hz": 533000,
+      "ddrqos": 1,
+      "latency_ns": 102.8
+    }
+  ]
+}

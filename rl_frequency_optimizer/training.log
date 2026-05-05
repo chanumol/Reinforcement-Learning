@@ -1,0 +1,1681 @@
+2026-04-17 16:37:07,282 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 16:37:07,282 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 16:37:07,371 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 16:37:07,421 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 16:37:07,490 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 16:37:07,547 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 16:37:07,547 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 16:37:07,547 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 16:37:08,871 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 16:37:08,871 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 16:37:10,831 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:37:12,942 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:37:15,258 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:37:17,235 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:37:18,840 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:37:20,538 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:37:22,213 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:37:23,930 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:37:25,675 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:37:27,230 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:37:29,076 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:37:30,628 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:37:32,293 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:37:33,877 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:37:35,526 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:37:37,139 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:37:38,851 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:37:40,530 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:37:41,957 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:37:43,513 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:37:45,341 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:37:47,157 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:37:48,851 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:37:50,651 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:37:52,326 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:37:53,858 [WARNING] env: Could not parse latency from benchmark output (taskset 0x10):
+
+2026-04-17 16:37:55,460 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:37:57,049 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:37:58,753 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:38:00,456 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:38:02,190 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:03,912 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:05,475 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:38:07,082 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:38:08,782 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:10,322 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:11,982 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:13,519 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:15,186 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:38:16,782 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:18,679 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:38:20,661 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:22,541 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:38:24,090 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:38:26,077 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:27,892 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:29,784 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:38:31,788 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:33,694 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:38:35,432 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:38:37,193 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:38:38,893 [WARNING] env: Could not parse latency from benchmark output (taskset 0x10):
+
+2026-04-17 16:38:40,549 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:38:42,236 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:43,793 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:38:45,406 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:38:46,918 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:38:48,460 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:50,211 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:38:51,815 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:38:53,414 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:38:55,021 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:38:56,722 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:38:58,473 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:39:00,621 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:39:02,322 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:39:04,322 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:39:06,226 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:39:08,326 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:39:10,015 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:39:11,783 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:39:13,725 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:39:15,423 [WARNING] env: Could not parse latency from benchmark output (taskset 0x2):
+
+2026-04-17 16:39:17,122 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:39:18,825 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:39:20,521 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:39:22,276 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:39:24,026 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:39:25,765 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:39:27,366 [WARNING] env: Could not parse latency from benchmark output (taskset 0x1):
+
+2026-04-17 16:39:29,338 [WARNING] env: Could not parse latency from benchmark output (taskset 0x8):
+
+2026-04-17 16:39:31,048 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:39:33,152 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:39:34,830 [WARNING] env: Could not parse latency from benchmark output (taskset 0x20):
+
+2026-04-17 16:39:36,756 [WARNING] env: Could not parse latency from benchmark output (taskset 0x4):
+
+2026-04-17 16:39:38,754 [WARNING] env: Could not parse latency from benchmark output (taskset 0x80):
+
+2026-04-17 16:39:40,650 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:39:42,856 [WARNING] env: Could not parse latency from benchmark output (taskset 0x40):
+
+2026-04-17 16:39:47,621 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 16:39:47,621 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 16:39:47,749 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 16:39:47,844 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 16:39:47,911 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 16:39:48,051 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 16:39:48,051 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 16:39:48,055 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 16:39:48,981 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 16:39:48,981 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 16:39:50,757 [WARNING] env: Could not parse latency (taskset 0x80). Raw output: "taskset: bad mask '0x80'"
+2026-04-17 16:39:50,757 [INFO] env: [NEW BEST] latency=10000000 ns | cpu=1248000 kHz | ddr=547000 kHz | ddrqos=1 | llcc=600000 kHz | CPU7 (taskset 0x80)
+2026-04-17 16:39:52,575 [WARNING] env: Could not parse latency (taskset 0x4). Raw output: "taskset: bad mask '0x4'"
+2026-04-17 16:39:54,416 [WARNING] env: Could not parse latency (taskset 0x1). Raw output: "taskset: bad mask '0x1'"
+2026-04-17 16:39:56,157 [WARNING] env: Could not parse latency (taskset 0x1). Raw output: "taskset: bad mask '0x1'"
+2026-04-17 16:39:57,955 [WARNING] env: Could not parse latency (taskset 0x10). Raw output: "taskset: bad mask '0x10'"
+2026-04-17 16:39:59,572 [WARNING] env: Could not parse latency (taskset 0x40). Raw output: "taskset: bad mask '0x40'"
+2026-04-17 16:40:01,365 [WARNING] env: Could not parse latency (taskset 0x1). Raw output: "taskset: bad mask '0x1'"
+2026-04-17 16:40:03,195 [WARNING] env: Could not parse latency (taskset 0x20). Raw output: "taskset: bad mask '0x20'"
+2026-04-17 16:40:05,166 [WARNING] env: Could not parse latency (taskset 0x2). Raw output: "taskset: bad mask '0x2'"
+2026-04-17 16:40:07,267 [WARNING] env: Could not parse latency (taskset 0x2). Raw output: "taskset: bad mask '0x2'"
+2026-04-17 16:40:09,067 [WARNING] env: Could not parse latency (taskset 0x20). Raw output: "taskset: bad mask '0x20'"
+2026-04-17 16:40:10,568 [WARNING] env: Could not parse latency (taskset 0x8). Raw output: "taskset: bad mask '0x8'"
+2026-04-17 16:40:12,266 [WARNING] env: Could not parse latency (taskset 0x40). Raw output: "taskset: bad mask '0x40'"
+2026-04-17 16:40:14,075 [WARNING] env: Could not parse latency (taskset 0x40). Raw output: "taskset: bad mask '0x40'"
+2026-04-17 16:40:15,768 [WARNING] env: Could not parse latency (taskset 0x40). Raw output: "taskset: bad mask '0x40'"
+2026-04-17 16:40:17,411 [WARNING] env: Could not parse latency (taskset 0x20). Raw output: "taskset: bad mask '0x20'"
+2026-04-17 16:40:19,165 [WARNING] env: Could not parse latency (taskset 0x4). Raw output: "taskset: bad mask '0x4'"
+2026-04-17 16:40:20,867 [WARNING] env: Could not parse latency (taskset 0x8). Raw output: "taskset: bad mask '0x8'"
+2026-04-17 16:40:22,520 [WARNING] env: Could not parse latency (taskset 0x80). Raw output: "taskset: bad mask '0x80'"
+2026-04-17 16:40:24,031 [WARNING] env: Could not parse latency (taskset 0x20). Raw output: "taskset: bad mask '0x20'"
+2026-04-17 16:40:25,749 [WARNING] env: Could not parse latency (taskset 0x20). Raw output: "taskset: bad mask '0x20'"
+2026-04-17 16:40:27,561 [WARNING] env: Could not parse latency (taskset 0x8). Raw output: "taskset: bad mask '0x8'"
+2026-04-17 16:40:29,095 [WARNING] env: Could not parse latency (taskset 0x40). Raw output: "taskset: bad mask '0x40'"
+2026-04-17 16:40:30,795 [WARNING] env: Could not parse latency (taskset 0x2). Raw output: "taskset: bad mask '0x2'"
+2026-04-17 16:40:32,401 [WARNING] env: Could not parse latency (taskset 0x10). Raw output: "taskset: bad mask '0x10'"
+2026-04-17 16:40:34,184 [WARNING] env: Could not parse latency (taskset 0x20). Raw output: "taskset: bad mask '0x20'"
+2026-04-17 16:40:35,976 [WARNING] env: Could not parse latency (taskset 0x10). Raw output: "taskset: bad mask '0x10'"
+2026-04-17 16:40:37,998 [WARNING] env: Could not parse latency (taskset 0x2). Raw output: "taskset: bad mask '0x2'"
+2026-04-17 16:40:39,800 [WARNING] env: Could not parse latency (taskset 0x40). Raw output: "taskset: bad mask '0x40'"
+2026-04-17 16:40:41,593 [WARNING] env: Could not parse latency (taskset 0x1). Raw output: "taskset: bad mask '0x1'"
+2026-04-17 16:40:43,702 [WARNING] env: Could not parse latency (taskset 0x80). Raw output: "taskset: bad mask '0x80'"
+2026-04-17 16:40:45,399 [WARNING] env: Could not parse latency (taskset 0x80). Raw output: "taskset: bad mask '0x80'"
+2026-04-17 16:40:49,336 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 16:40:49,336 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 16:40:49,401 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 16:40:49,494 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 16:40:49,577 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 16:40:49,630 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 16:40:49,630 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 16:40:49,630 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 16:40:50,579 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 16:40:50,579 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 16:41:06,064 [WARNING] env: Could not parse latency (taskset 16). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:41:06,066 [INFO] env: [NEW BEST] latency=10000000 ns | cpu=2937600 kHz | ddr=4780000 kHz | ddrqos=0 | llcc=282000 kHz | CPU4 (taskset 16 / 0x10)
+2026-04-17 16:41:22,607 [WARNING] env: Could not parse latency (taskset 2). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:41:38,579 [WARNING] env: Could not parse latency (taskset 64). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:41:54,431 [WARNING] env: Could not parse latency (taskset 2). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:42:09,953 [WARNING] env: Could not parse latency (taskset 128). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:42:25,969 [WARNING] env: Could not parse latency (taskset 32). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:42:42,026 [WARNING] env: Could not parse latency (taskset 32). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:42:58,432 [WARNING] env: Could not parse latency (taskset 4). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:43:15,202 [WARNING] env: Could not parse latency (taskset 64). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:43:31,410 [WARNING] env: Could not parse latency (taskset 2). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:43:47,556 [WARNING] env: Could not parse latency (taskset 16). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:44:05,446 [WARNING] env: Could not parse latency (taskset 1). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:44:21,410 [WARNING] env: Could not parse latency (taskset 16). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:44:37,420 [WARNING] env: Could not parse latency (taskset 128). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:44:52,799 [WARNING] env: Could not parse latency (taskset 128). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:58:24,325 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 16:58:24,325 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 16:58:24,465 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 16:58:24,566 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 16:58:24,626 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 16:58:24,666 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 16:58:24,666 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 16:58:24,666 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 16:58:25,718 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 16:58:25,718 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 16:58:42,248 [WARNING] env: Could not parse latency (taskset 2). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:58:42,248 [INFO] env: [NEW BEST] latency=10000000 ns | cpu=2304000 kHz | ddr=4224000 kHz | ddrqos=0 | llcc=600000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-17 16:58:58,343 [WARNING] env: Could not parse latency (taskset 64). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:59:13,753 [WARNING] env: Could not parse latency (taskset 64). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 16:59:30,521 [WARNING] env: Could not parse latency (taskset 2). Raw output: 'scaling_max_freq core:0 3475200\r\nscaling_max_freq core:1 3475200\r\nscaling_max_freq core:2 3475200\r\nscaling_max_freq core:3 3916800\r\nscaling_max_freq core:4 3916800\r\nscaling_max_freq core:5 3916800\r\nscaling_max_freq core:6 4435200\r\nscaling_max_freq core:7 4435200\r\n\r\nEntered thread: 0\r\n\r\nMemory Latenc'
+2026-04-17 17:02:44,097 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 17:02:44,097 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 17:02:44,232 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 17:02:44,292 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 17:02:44,398 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 17:02:44,531 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 17:02:44,531 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 17:02:44,539 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 17:02:45,478 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 17:02:45,478 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 17:03:02,692 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,111.95
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:03:02,692 [INFO] env: [NEW BEST] latency=10000000 ns | cpu=3475200 kHz | ddr=2736000 kHz | ddrqos=1 | llcc=600000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-17 17:03:18,999 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,107.41
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:03:35,822 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,112.75
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:03:53,400 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,117.88
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:04:08,462 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,100.99
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:04:25,793 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,116.56
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:04:40,861 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,101.01
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:04:56,350 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+scaling_max_freq core:0 3475200
+scaling_max_freq core:1 3475200
+scaling_max_freq core:2 3475200
+scaling_max_freq core:3 3916800
+scaling_max_freq core:4 3916800
+scaling_max_freq core:5 3916800
+scaling_max_freq core:6 4435200
+scaling_max_freq core:7 4435200
+
+Entered thread: 0
+
+Memory Latency Test Parameters:
+Min Buffer Size :      65536 KB
+Max Buffer Size :      65536 KB
+
+Memory Latency (ns): 0
+
+MemLatency
+memory footprint (KB),Latency (ns)
+65536,103.51
+Returning Thread 0
+Program terminated successfully!
+2026-04-17 17:05:09,964 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 17:05:09,964 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 17:05:10,033 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 17:05:10,083 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 17:05:10,229 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 17:05:10,332 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 17:05:10,332 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 17:05:10,332 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 17:05:11,273 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 17:05:11,273 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 17:05:28,387 [INFO] env: [NEW BEST] latency=113 ns | cpu=1824000 kHz | ddr=1708000 kHz | ddrqos=1 | llcc=600000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-17 17:05:44,932 [INFO] env: [NEW BEST] latency=111 ns | cpu=1728000 kHz | ddr=4780000 kHz | ddrqos=1 | llcc=1066000 kHz | CPU2 (taskset 4 / 0x4)
+2026-04-17 17:06:34,863 [INFO] env: [NEW BEST] latency=107 ns | cpu=960000 kHz | ddr=1353000 kHz | ddrqos=1 | llcc=533000 kHz | CPU4 (taskset 16 / 0x10)
+2026-04-17 17:07:24,339 [INFO] env: [NEW BEST] latency=101 ns | cpu=1536000 kHz | ddr=4780000 kHz | ddrqos=1 | llcc=1211000 kHz | CPU3 (taskset 8 / 0x8)
+2026-04-17 17:44:41,994 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 17:44:41,994 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 17:44:42,097 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 17:44:42,202 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 17:44:42,250 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 17:44:42,330 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 17:44:42,330 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 17:44:42,331 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 17:44:43,386 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 17:44:43,386 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 17:45:01,726 [INFO] env: [NEW BEST] latency=117 ns | cpu=2112000 kHz | ddr=1708000 kHz | ddrqos=1 | llcc=933000 kHz | CPU4 (taskset 16 / 0x10)
+2026-04-17 17:46:42,197 [INFO] env: [NEW BEST] latency=111 ns | cpu=1632000 kHz | ddr=5333000 kHz | ddrqos=0 | llcc=1350000 kHz | CPU2 (taskset 4 / 0x4)
+2026-04-17 17:47:45,349 [INFO] env: [NEW BEST] latency=107 ns | cpu=2937600 kHz | ddr=3686000 kHz | ddrqos=1 | llcc=533000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-17 17:49:47,907 [INFO] env: [NEW BEST] latency=101 ns | cpu=960000 kHz | ddr=4780000 kHz | ddrqos=0 | llcc=350000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-17 20:43:58,061 [INFO] env: [NEW BEST] latency=100 ns | cpu=2304000 kHz | ddr=4780000 kHz | ddrqos=1 | llcc=806000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-17 23:59:02,658 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-17 23:59:02,658 [INFO] freq_space: Discovering frequency space from device...
+2026-04-17 23:59:02,792 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-17 23:59:02,866 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-17 23:59:02,958 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-17 23:59:03,057 [INFO] freq_space: Device has 8 CPUs
+2026-04-17 23:59:03,057 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-17 23:59:03,057 [INFO] train: Total action space : 42,768 combinations
+2026-04-17 23:59:04,196 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-17 23:59:04,196 [INFO] train: 
+Starting training: 500 episodes × up to 200 steps each
+
+2026-04-17 23:59:19,934 [INFO] env: [NEW BEST] latency=101 ns | cpu=3168000 kHz | ddr=1353000 kHz | ddrqos=1 | llcc=1066000 kHz | CPU2 (taskset 4 / 0x4)
+2026-04-17 23:59:33,419 [INFO] env: [NEW BEST] latency=87 ns | cpu=3398400 kHz | ddr=4780000 kHz | ddrqos=1 | llcc=600000 kHz | CPU5 (taskset 32 / 0x20)
+2026-04-18 00:01:04,954 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-18 00:01:04,954 [INFO] freq_space: Discovering frequency space from device...
+2026-04-18 00:01:05,008 [INFO] freq_space: CPU0 available freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-18 00:01:05,061 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-18 00:01:05,172 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-18 00:01:05,224 [INFO] freq_space: Device has 8 CPUs
+2026-04-18 00:01:05,224 [INFO] train: FrequencySpace(cpu_freqs=27, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=42,768)
+2026-04-18 00:01:05,224 [INFO] train: Total action space : 42,768 combinations
+2026-04-18 00:01:06,232 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=42,768, device=cpu
+2026-04-18 00:01:06,232 [INFO] train: 
+Starting training: 500 episodes × up to 20 steps each
+
+2026-04-18 00:01:19,955 [INFO] env: [NEW BEST] latency=86 ns | cpu=1728000 kHz | ddr=4224000 kHz | ddrqos=0 | llcc=1211000 kHz | CPU4 (taskset 16 / 0x10)
+2026-04-18 00:06:06,726 [INFO] train: Ep    1/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        86 ns | loss=0.00000 | eps=1.000
+2026-04-18 00:20:23,675 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-18 00:20:23,675 [INFO] freq_space: Discovering frequency space from device...
+2026-04-18 00:20:23,731 [INFO] freq_space: Device has 8 CPUs
+2026-04-18 00:20:23,802 [INFO] freq_space: CPU0 freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-18 00:20:23,856 [INFO] freq_space: CPU1 freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-18 00:20:23,908 [INFO] freq_space: CPU2 freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-18 00:20:23,991 [INFO] freq_space: CPU3 freqs (30): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-18 00:20:24,103 [INFO] freq_space: CPU4 freqs (30): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-18 00:20:24,144 [INFO] freq_space: CPU5 freqs (30): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-18 00:20:24,230 [INFO] freq_space: CPU6 freqs (35): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-18 00:20:24,281 [INFO] freq_space: CPU7 freqs (35): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-18 00:20:24,334 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-18 00:20:24,376 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-18 00:20:24,376 [INFO] freq_space: Union CPU freqs (51): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2630400, 2707200, 2822400, 2860800, 2937600, 3052800, 3091200, 3168000, 3283200, 3321600, 3398400, 3475200, 3513600, 3552000, 3628800, 3667200, 3744000, 3782400, 3859200, 3897600, 3916800, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-18 00:20:24,376 [INFO] train: FrequencySpace(union_cpu_freqs=51, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=80,784)
+2026-04-18 00:20:24,376 [INFO] train: Total action space : 80,784 combinations
+2026-04-18 00:20:25,553 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=80,784, device=cpu
+2026-04-18 00:20:25,553 [INFO] train: 
+Starting training: 500 episodes × up to 20 steps each
+
+2026-04-18 00:20:40,555 [INFO] env: [NEW BEST] latency=100 ns | cpu=3782400 kHz | ddr=1353000 kHz | ddrqos=1 | llcc=933000 kHz | CPU7 (taskset 128 / 0x80)
+2026-04-18 00:21:11,018 [INFO] env: [NEW BEST] latency=98 ns | cpu=864000 kHz | ddr=3686000 kHz | ddrqos=0 | llcc=600000 kHz | CPU0 (taskset 1 / 0x1)
+2026-04-18 00:21:39,538 [INFO] env: [NEW BEST] latency=89 ns | cpu=1824000 kHz | ddr=3686000 kHz | ddrqos=0 | llcc=1066000 kHz | CPU5 (taskset 32 / 0x20)
+2026-04-18 00:21:52,620 [INFO] env: [NEW BEST] latency=87 ns | cpu=4435200 kHz | ddr=4780000 kHz | ddrqos=0 | llcc=1350000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-18 00:25:06,655 [INFO] env: [NEW BEST] latency=84 ns | cpu=3916800 kHz | ddr=4780000 kHz | ddrqos=1 | llcc=282000 kHz | CPU5 (taskset 32 / 0x20)
+2026-04-18 00:25:50,190 [INFO] train: Ep    1/500 | reward=    -0.00 | ep_best_lat=        84 ns | global_best=        84 ns | loss=0.00000 | eps=1.000
+2026-04-18 00:33:06,555 [INFO] env: [NEW BEST] latency=83 ns | cpu=3398400 kHz | ddr=4224000 kHz | ddrqos=1 | llcc=282000 kHz | CPU4 (taskset 16 / 0x10)
+2026-04-18 00:37:41,471 [INFO] env: [NEW BEST] latency=80 ns | cpu=1824000 kHz | ddr=4224000 kHz | ddrqos=1 | llcc=1350000 kHz | CPU5 (taskset 32 / 0x20)
+2026-04-18 01:17:07,734 [INFO] train: Ep   10/500 | reward=    -0.00 | ep_best_lat=        83 ns | global_best=        80 ns | loss=0.00831 | eps=0.663
+2026-04-18 02:16:25,499 [INFO] train: Ep   20/500 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        80 ns | loss=0.01137 | eps=0.363
+2026-04-18 03:13:22,394 [INFO] train: Ep   30/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        80 ns | loss=0.00134 | eps=0.199
+2026-04-18 04:19:56,344 [INFO] train: Ep   40/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        80 ns | loss=0.00244 | eps=0.109
+2026-04-18 05:27:36,405 [INFO] train: Ep   50/500 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        80 ns | loss=0.00046 | eps=0.060
+2026-04-18 05:27:36,594 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-18 06:35:09,756 [INFO] train: Ep   60/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        80 ns | loss=0.00182 | eps=0.050
+2026-04-18 07:44:14,652 [INFO] train: Ep   70/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        80 ns | loss=0.00018 | eps=0.050
+2026-04-18 08:50:07,987 [INFO] train: Ep   80/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        80 ns | loss=0.00054 | eps=0.050
+2026-04-18 09:49:02,134 [INFO] train: Ep   90/500 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        80 ns | loss=0.00007 | eps=0.050
+2026-04-18 10:47:53,327 [INFO] train: Ep  100/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        80 ns | loss=0.00171 | eps=0.050
+2026-04-18 10:47:53,513 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-18 11:44:36,756 [INFO] train: Ep  110/500 | reward=    -0.00 | ep_best_lat=        92 ns | global_best=        80 ns | loss=0.00144 | eps=0.050
+2026-04-18 11:49:53,343 [INFO] env: [NEW BEST] latency=77 ns | cpu=1152000 kHz | ddr=3187000 kHz | ddrqos=1 | llcc=1066000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-18 11:50:05,062 [INFO] env: [NEW BEST] latency=76 ns | cpu=1152000 kHz | ddr=3187000 kHz | ddrqos=1 | llcc=1066000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-18 12:41:16,354 [INFO] train: Ep  120/500 | reward=    -0.00 | ep_best_lat=        83 ns | global_best=        76 ns | loss=0.00012 | eps=0.050
+2026-04-18 13:36:50,163 [INFO] train: Ep  130/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00081 | eps=0.050
+2026-04-18 14:43:06,909 [INFO] train: Ep  140/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        76 ns | loss=0.00022 | eps=0.050
+2026-04-18 15:40:09,251 [INFO] train: Ep  150/500 | reward=    -0.00 | ep_best_lat=        82 ns | global_best=        76 ns | loss=0.00121 | eps=0.050
+2026-04-18 15:40:09,437 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-18 16:32:01,833 [INFO] train: Ep  160/500 | reward=    -0.00 | ep_best_lat=        82 ns | global_best=        76 ns | loss=0.00036 | eps=0.050
+2026-04-18 17:32:57,046 [INFO] train: Ep  170/500 | reward=    -0.00 | ep_best_lat=        92 ns | global_best=        76 ns | loss=0.00042 | eps=0.050
+2026-04-18 18:30:57,376 [INFO] train: Ep  180/500 | reward=    -0.00 | ep_best_lat=        80 ns | global_best=        76 ns | loss=0.00045 | eps=0.050
+2026-04-18 19:28:19,036 [INFO] train: Ep  190/500 | reward=    -0.00 | ep_best_lat=        92 ns | global_best=        76 ns | loss=0.00008 | eps=0.050
+2026-04-18 20:29:55,536 [INFO] train: Ep  200/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        76 ns | loss=0.00021 | eps=0.050
+2026-04-18 20:29:55,729 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-18 21:25:15,141 [INFO] train: Ep  210/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00040 | eps=0.050
+2026-04-18 22:21:16,128 [INFO] train: Ep  220/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        76 ns | loss=0.00005 | eps=0.050
+2026-04-18 23:13:29,379 [INFO] train: Ep  230/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00010 | eps=0.050
+2026-04-19 00:14:17,737 [INFO] train: Ep  240/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00010 | eps=0.050
+2026-04-19 01:12:45,618 [INFO] train: Ep  250/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        76 ns | loss=0.00016 | eps=0.050
+2026-04-19 01:12:45,804 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-19 02:15:29,641 [INFO] train: Ep  260/500 | reward=    -0.00 | ep_best_lat=        92 ns | global_best=        76 ns | loss=0.00029 | eps=0.050
+2026-04-19 03:11:08,236 [INFO] train: Ep  270/500 | reward=    -0.00 | ep_best_lat=        83 ns | global_best=        76 ns | loss=0.00015 | eps=0.050
+2026-04-19 04:09:46,929 [INFO] train: Ep  280/500 | reward=    -0.00 | ep_best_lat=        82 ns | global_best=        76 ns | loss=0.00015 | eps=0.050
+2026-04-19 05:18:05,838 [INFO] train: Ep  290/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00014 | eps=0.050
+2026-04-19 06:09:59,860 [INFO] train: Ep  300/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        76 ns | loss=0.00016 | eps=0.050
+2026-04-19 06:10:00,038 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-19 07:06:22,711 [INFO] train: Ep  310/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00016 | eps=0.050
+2026-04-19 07:59:41,619 [INFO] train: Ep  320/500 | reward=    -0.00 | ep_best_lat=        83 ns | global_best=        76 ns | loss=0.00005 | eps=0.050
+2026-04-19 09:07:07,103 [INFO] train: Ep  330/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00017 | eps=0.050
+2026-04-19 10:10:25,686 [INFO] train: Ep  340/500 | reward=    -0.00 | ep_best_lat=        82 ns | global_best=        76 ns | loss=0.00008 | eps=0.050
+2026-04-19 11:20:54,606 [INFO] train: Ep  350/500 | reward=    -0.00 | ep_best_lat=        82 ns | global_best=        76 ns | loss=0.00026 | eps=0.050
+2026-04-19 11:20:54,784 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-19 12:21:58,370 [INFO] train: Ep  360/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00004 | eps=0.050
+2026-04-19 13:15:36,240 [INFO] train: Ep  370/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00015 | eps=0.050
+2026-04-19 14:20:05,492 [INFO] train: Ep  380/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        76 ns | loss=0.00016 | eps=0.050
+2026-04-19 15:22:15,481 [INFO] train: Ep  390/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        76 ns | loss=0.00023 | eps=0.050
+2026-04-19 16:13:32,169 [INFO] train: Ep  400/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00011 | eps=0.050
+2026-04-19 16:13:32,345 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-19 17:04:32,389 [INFO] train: Ep  410/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00006 | eps=0.050
+2026-04-19 18:02:56,501 [INFO] train: Ep  420/500 | reward=    -0.00 | ep_best_lat=        90 ns | global_best=        76 ns | loss=0.00011 | eps=0.050
+2026-04-19 18:52:06,360 [INFO] train: Ep  430/500 | reward=    -0.00 | ep_best_lat=        84 ns | global_best=        76 ns | loss=0.00057 | eps=0.050
+2026-04-19 19:53:30,742 [INFO] train: Ep  440/500 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        76 ns | loss=0.00045 | eps=0.050
+2026-04-19 20:51:32,290 [INFO] train: Ep  450/500 | reward=    -0.00 | ep_best_lat=        93 ns | global_best=        76 ns | loss=0.00018 | eps=0.050
+2026-04-19 20:51:32,477 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-19 21:42:08,877 [INFO] train: Ep  460/500 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        76 ns | loss=0.00100 | eps=0.050
+2026-04-19 22:38:51,186 [INFO] train: Ep  470/500 | reward=    -0.00 | ep_best_lat=        82 ns | global_best=        76 ns | loss=0.00021 | eps=0.050
+2026-04-19 23:52:13,027 [INFO] train: Ep  480/500 | reward=    -0.00 | ep_best_lat=        90 ns | global_best=        76 ns | loss=0.00060 | eps=0.050
+2026-04-20 00:59:55,701 [INFO] train: Ep  490/500 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        76 ns | loss=0.00046 | eps=0.050
+2026-04-20 02:03:59,714 [INFO] train: Ep  500/500 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        76 ns | loss=0.00083 | eps=0.050
+2026-04-20 02:03:59,927 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-20 02:04:00,093 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-20 02:04:00,093 [INFO] train: 
+=================================================================
+2026-04-20 02:04:00,093 [INFO] train: TRAINING COMPLETE
+2026-04-20 02:04:00,093 [INFO] train: =================================================================
+2026-04-20 02:04:00,093 [INFO] train:   Total steps      : 10,000
+2026-04-20 02:04:00,093 [INFO] train:   Global best lat  : 76 ns
+2026-04-20 02:04:00,093 [INFO] train:   Best config      : {'cpu_freq': 1152000, 'ddr_freq': 3187000, 'ddrqos_freq': 1, 'llcc_freq': 1066000, 'target_cpu': 6, 'taskset_mask': '64', 'taskset_mask_hex': '0x40', 'latency_ns': 76}
+2026-04-20 02:04:00,093 [INFO] train:   Results log      : results.jsonl
+2026-04-20 02:04:00,093 [INFO] train:   Best config file : best_config.json
+2026-04-20 02:04:00,093 [INFO] train: 
+=================================================================
+2026-04-20 02:04:00,093 [INFO] train:   BEST CONFIGURATION
+2026-04-20 02:04:00,093 [INFO] train: =================================================================
+2026-04-20 02:04:00,093 [INFO] train:   CPU frequency  :    1,152,000 kHz
+2026-04-20 02:04:00,093 [INFO] train:   DDR boost      :    3,187,000 kHz
+2026-04-20 02:04:00,093 [INFO] train:   DDRQOS boost   :            1
+2026-04-20 02:04:00,093 [INFO] train:   LLCC boost     :    1,066,000 kHz
+2026-04-20 02:04:00,093 [INFO] train:   Target CPU     : CPU6  (taskset 64)
+2026-04-20 02:04:00,093 [INFO] train:   Best latency   :           76 ns
+2026-04-20 02:04:00,093 [INFO] train: =================================================================
+2026-04-20 02:04:00,093 [INFO] train: 
+Running 5 verification benchmarks on device...
+2026-04-20 02:04:13,180 [INFO] train:   Run 1/5: 87 ns
+2026-04-20 02:04:26,804 [INFO] train:   Run 2/5: 91 ns
+2026-04-20 02:04:40,582 [INFO] train:   Run 3/5: 93 ns
+2026-04-20 02:04:54,086 [INFO] train:   Run 4/5: 91 ns
+2026-04-20 02:05:07,914 [INFO] train:   Run 5/5: 93 ns
+2026-04-20 02:05:07,914 [INFO] train: 
+  Mean :           91 ns
+2026-04-20 02:05:07,914 [INFO] train:   Std  :            2 ns
+2026-04-20 02:05:07,914 [INFO] train:   Min  :           87 ns
+2026-04-20 02:05:07,914 [INFO] train:   Max  :           93 ns
+2026-04-20 02:05:07,914 [INFO] train: 
+=================================================================
+2026-04-20 02:05:07,914 [INFO] train:   REPRODUCE WITH THESE ADB COMMANDS
+2026-04-20 02:05:07,914 [INFO] train: =================================================================
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu1/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu2/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu3/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu5/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu5/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu6/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu6/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo userspace > /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1152000 > /sys/devices/system/cpu/cpu7/cpufreq/scaling_setspeed
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 3187000 > /sys/devices/system/cpu/bus_dcvs/DDR/boost_freq
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1 > /sys/devices/system/cpu/bus_dcvs/DDRQOS/boost_freq
+2026-04-20 02:05:07,914 [INFO] train: adb shell echo 1066000 > /sys/devices/system/cpu/bus_dcvs/LLCC/boost_freq
+2026-04-20 02:05:07,914 [INFO] train: adb shell taskset 64 /data/local/tmp/FullRandLat memlat -min-buffer-size-kb 65536 -max-buffer-size-kb 65536
+2026-04-20 02:05:07,914 [INFO] train: =================================================================
+2026-04-20 12:16:16,179 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-20 12:16:16,179 [INFO] freq_space: Discovering frequency space from device...
+2026-04-20 12:16:16,248 [INFO] freq_space: Device has 8 CPUs
+2026-04-20 12:16:16,346 [INFO] freq_space: CPU0 freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-20 12:16:16,400 [INFO] freq_space: CPU1 freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-20 12:16:16,542 [INFO] freq_space: CPU2 freqs (27): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-20 12:16:16,648 [INFO] freq_space: CPU3 freqs (30): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-20 12:16:16,712 [INFO] freq_space: CPU4 freqs (30): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-20 12:16:16,766 [INFO] freq_space: CPU5 freqs (30): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-20 12:16:16,846 [INFO] freq_space: CPU6 freqs (35): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:16:16,943 [INFO] freq_space: CPU7 freqs (35): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:16:17,002 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-20 12:16:17,122 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-20 12:16:17,122 [INFO] freq_space: Union CPU freqs (51): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2630400, 2707200, 2822400, 2860800, 2937600, 3052800, 3091200, 3168000, 3283200, 3321600, 3398400, 3475200, 3513600, 3552000, 3628800, 3667200, 3744000, 3782400, 3859200, 3897600, 3916800, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:16:17,122 [INFO] train: FrequencySpace(union_cpu_freqs=51, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=80,784)
+2026-04-20 12:16:17,122 [INFO] train: Total action space : 80,784 combinations
+2026-04-20 12:16:17,127 [INFO] train: Frequency space cached to freq_space_cache.json
+2026-04-20 12:16:18,427 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=80,784, device=cpu
+2026-04-20 12:16:18,427 [INFO] train: 
+Starting training: 500 episodes × up to 20 steps each
+
+2026-04-20 12:16:46,737 [INFO] env: [NEW BEST] latency=214 ns | cpu=1632000 kHz | ddr=1555000 kHz | ddrqos=0 | llcc=806000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-20 12:17:11,999 [INFO] env: [NEW BEST] latency=189 ns | cpu=4128000 kHz | ddr=1708000 kHz | ddrqos=0 | llcc=350000 kHz | CPU7 (taskset 128 / 0x80)
+2026-04-20 12:17:25,478 [INFO] env: [NEW BEST] latency=97 ns | cpu=1632000 kHz | ddr=1555000 kHz | ddrqos=1 | llcc=1066000 kHz | CPU7 (taskset 128 / 0x80)
+2026-04-20 12:18:35,088 [INFO] env: [NEW BEST] latency=92 ns | cpu=3475200 kHz | ddr=4224000 kHz | ddrqos=0 | llcc=1066000 kHz | CPU2 (taskset 4 / 0x4)
+2026-04-20 12:21:22,933 [INFO] env: [NEW BEST] latency=89 ns | cpu=2592000 kHz | ddr=4224000 kHz | ddrqos=1 | llcc=933000 kHz | CPU3 (taskset 8 / 0x8)
+2026-04-20 12:22:38,350 [INFO] train: Ep    1/500 | reward=    -0.00 | ep_best_lat=        89 ns | global_best=        89 ns | loss=0.00000 | eps=1.000
+2026-04-20 12:27:44,428 [INFO] env: [NEW BEST] latency=84 ns | cpu=3628800 kHz | ddr=5333000 kHz | ddrqos=0 | llcc=1211000 kHz | CPU4 (taskset 16 / 0x10)
+2026-04-20 12:33:32,135 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-20 12:33:32,135 [INFO] freq_space: Discovering frequency space from device...
+2026-04-20 12:33:32,186 [INFO] freq_space: Device has 8 CPUs
+2026-04-20 12:33:32,252 [INFO] freq_space: Cluster representative CPU0 (27 freqs, 864000–3475200 kHz): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-20 12:33:32,502 [INFO] freq_space: Cluster representative CPU3 (30 freqs, 960000–3916800 kHz): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-20 12:33:32,749 [INFO] freq_space: Cluster representative CPU6 (35 freqs, 288000–4435200 kHz): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:33:32,902 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-20 12:33:32,958 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-20 12:33:32,958 [INFO] freq_space: Union CPU freqs (51): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2630400, 2707200, 2822400, 2860800, 2937600, 3052800, 3091200, 3168000, 3283200, 3321600, 3398400, 3475200, 3513600, 3552000, 3628800, 3667200, 3744000, 3782400, 3859200, 3897600, 3916800, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:33:32,958 [INFO] train: FrequencySpace(union_cpu_freqs=51, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=80,784)
+2026-04-20 12:33:32,958 [INFO] train: Total action space : 80,784 combinations
+2026-04-20 12:33:32,959 [INFO] train: Frequency space cached to freq_space_cache.json
+2026-04-20 12:33:34,246 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=80,784, device=cpu
+2026-04-20 12:33:34,246 [INFO] train: 
+Starting training: 200 episodes × up to 20 steps each
+
+2026-04-20 12:49:47,276 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-20 12:49:47,276 [INFO] freq_space: Discovering frequency space from device...
+2026-04-20 12:49:47,408 [INFO] freq_space: Device has 8 CPUs
+2026-04-20 12:49:47,484 [INFO] freq_space: Cluster representative CPU0 (27 freqs, 864000–3475200 kHz): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-20 12:49:47,708 [INFO] freq_space: Cluster representative CPU3 (30 freqs, 960000–3916800 kHz): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-20 12:49:47,908 [INFO] freq_space: Cluster representative CPU6 (35 freqs, 288000–4435200 kHz): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:49:48,051 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-20 12:49:48,107 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-20 12:49:48,107 [INFO] freq_space: Union CPU freqs (51): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2630400, 2707200, 2822400, 2860800, 2937600, 3052800, 3091200, 3168000, 3283200, 3321600, 3398400, 3475200, 3513600, 3552000, 3628800, 3667200, 3744000, 3782400, 3859200, 3897600, 3916800, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 12:49:48,107 [INFO] train: FrequencySpace(union_cpu_freqs=51, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=80,784)
+2026-04-20 12:49:48,107 [INFO] train: Total action space : 80,784 combinations
+2026-04-20 12:49:48,110 [INFO] train: Frequency space cached to freq_space_cache.json
+2026-04-20 12:49:49,521 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=80,784, device=cpu
+2026-04-20 12:49:49,522 [INFO] train: 
+Starting training: 200 episodes × up to 20 steps each
+
+2026-04-20 12:50:05,658 [INFO] env: [NEW BEST] latency=122 ns | cpu=960000 kHz | ddr=3187000 kHz | ddrqos=1 | llcc=350000 kHz | CPU5 (taskset 32 / 0x20)
+2026-04-20 12:50:51,673 [INFO] env: [NEW BEST] latency=100 ns | cpu=3475200 kHz | ddr=1555000 kHz | ddrqos=1 | llcc=933000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-20 12:52:13,016 [INFO] env: [NEW BEST] latency=99 ns | cpu=3513600 kHz | ddr=1708000 kHz | ddrqos=1 | llcc=1350000 kHz | CPU3 (taskset 8 / 0x8)
+2026-04-20 12:56:42,674 [INFO] train: Ep    1/200 | reward=    -0.00 | ep_best_lat=        99 ns | global_best=        99 ns | loss=0.00000 | eps=1.000
+2026-04-20 12:56:54,873 [INFO] env: [NEW BEST] latency=92 ns | cpu=576000 kHz | ddr=5333000 kHz | ddrqos=0 | llcc=282000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-20 12:57:06,398 [INFO] env: [NEW BEST] latency=87 ns | cpu=3475200 kHz | ddr=5333000 kHz | ddrqos=1 | llcc=600000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-20 13:06:06,958 [INFO] env: [NEW BEST] latency=82 ns | cpu=3916800 kHz | ddr=5333000 kHz | ddrqos=0 | llcc=1211000 kHz | CPU3 (taskset 8 / 0x8)
+2026-04-20 13:13:30,180 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+error: closed
+2026-04-20 13:13:30,620 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:30,734 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:30,843 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:30,944 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:31,055 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:31,499 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:31,609 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:31,712 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:31,812 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:31,912 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,013 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,117 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,227 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,333 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,431 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,532 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,629 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,733 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,828 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:32,917 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,027 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,135 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,240 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,340 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,437 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,537 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,632 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,726 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,817 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:33,932 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,033 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,133 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,239 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,336 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,438 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,535 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,629 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,727 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,821 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:34,919 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,013 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,103 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,216 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,322 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,417 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,528 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,617 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,728 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,817 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:35,934 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,034 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,138 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,249 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,348 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,457 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,550 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,666 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,769 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,851 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:36,966 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,062 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,165 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,261 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,367 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,475 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,574 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,674 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,782 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,882 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:37,991 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,089 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,192 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,283 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,395 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,484 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,592 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,684 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,781 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,878 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:38,983 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,085 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,179 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,276 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,371 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,477 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,567 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,682 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,778 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,867 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:39,984 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,078 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,182 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,267 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,367 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,468 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,567 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,673 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,785 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,880 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:40,983 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,084 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,179 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,281 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,385 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,491 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,588 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,683 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,783 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,867 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:41,985 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,091 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,184 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,286 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,384 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,483 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,584 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,692 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,783 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,884 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:42,983 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,094 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,193 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,229 [INFO] train: Ep   10/200 | reward=  -200.00 | ep_best_lat=  10000000 ns | global_best=        82 ns | loss=1.19650 | eps=0.663
+2026-04-20 13:13:43,288 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,382 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,493 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,596 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,688 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,790 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:43,902 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,000 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,101 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,200 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,284 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,399 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,493 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,599 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,708 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,801 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:44,917 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,016 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,125 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,217 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,318 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,415 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,515 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,624 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,717 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,823 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:45,918 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,016 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,116 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,233 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,333 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,433 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,531 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,617 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,734 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,842 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:46,934 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,042 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,138 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,243 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,343 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,450 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,542 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,638 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,732 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,817 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:47,933 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,035 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,134 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,245 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,334 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,433 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,543 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,633 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,736 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,818 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:48,927 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,026 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,129 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,228 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,341 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,434 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,544 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,654 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,764 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,851 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:49,955 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,059 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,145 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,255 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,356 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,450 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,560 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,651 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,762 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,851 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:50,950 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,051 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,160 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,249 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,362 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,454 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,554 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,661 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,750 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,854 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:51,950 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,046 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,154 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,256 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,351 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,452 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,556 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,650 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,773 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,867 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:52,967 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,067 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,151 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,252 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,354 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,450 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,550 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,649 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,758 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,848 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:53,951 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,047 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,142 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,233 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,317 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,417 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,527 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,631 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,717 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,833 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:54,944 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,032 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,136 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,234 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,331 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,431 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,534 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,635 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,732 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,832 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:55,937 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,034 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,150 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,252 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,354 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,434 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,534 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,644 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,747 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,850 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:56,952 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,047 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,142 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,242 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,341 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,437 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,540 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,636 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,739 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,817 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:57,929 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,027 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,131 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,228 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,322 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,418 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,533 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,634 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,738 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,833 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:58,934 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,043 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,144 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,234 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,347 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,445 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,534 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,641 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,734 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,846 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:13:59,934 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,035 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,134 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,218 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,334 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,449 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,545 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,655 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,752 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,859 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:00,954 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,056 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,160 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,262 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,354 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,449 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,554 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,664 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,767 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,867 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:01,975 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,084 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,182 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,284 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,381 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,483 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,584 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,686 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,786 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,886 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:02,967 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,088 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,186 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,284 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,322 [INFO] train: Ep   20/200 | reward=  -200.00 | ep_best_lat=  10000000 ns | global_best=        82 ns | loss=1.13861 | eps=0.363
+2026-04-20 13:14:03,382 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,468 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,568 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,669 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,763 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,862 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:03,968 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,068 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,164 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,255 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,366 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,468 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,581 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:14:04,673 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:25,515 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+/system/bin/sh: can't create /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq: Permission denied
+/system/bin/sh: can't create /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq: Permission denied
+/system/bin/sh: can't create /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq: Permission denied
+/system/bin/sh: can't create /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq: Permission denied
+/system/bin/sh: can't create /sys/devices/system/cpu/bus_dcvs/DDR/boost_freq: Permission denied
+/system/bin/sh: can't create /sys/devices/system/cpu/bus_dcvs/DDRQOS/boost_freq: Permission denied
+/system/bin/sh: can't create /sys/devices/system/cpu/bus_dcvs/LLCC/boost_freq: Permission denied
+2026-04-20 13:15:25,630 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:25,740 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:25,838 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:25,942 [WARNING] env: Could not parse latency (taskset 16). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,048 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,150 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,266 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,364 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,475 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,576 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,685 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,781 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,878 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:26,967 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,068 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,178 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,275 [WARNING] env: Could not parse latency (taskset 2). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,367 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,483 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,586 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,688 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,780 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,888 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:27,985 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,094 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,204 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,303 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,385 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,486 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,595 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,696 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,802 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:28,902 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,018 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,118 [WARNING] env: Could not parse latency (taskset 1). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,201 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,307 [WARNING] env: Could not parse latency (taskset 32). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,398 [WARNING] env: Could not parse latency (taskset 64). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,501 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,603 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,701 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,814 [WARNING] env: Could not parse latency (taskset 4). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:29,918 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:30,023 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:30,117 [WARNING] env: Could not parse latency (taskset 8). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:15:30,233 [WARNING] env: Could not parse latency (taskset 128). Full raw output:
+adb.exe: no devices/emulators found
+2026-04-20 13:27:40,034 [INFO] env: [NEW BEST] latency=81 ns | cpu=288000 kHz | ddr=5333000 kHz | ddrqos=0 | llcc=282000 kHz | CPU7 (taskset 128 / 0x80)
+2026-04-20 13:44:00,797 [INFO] train: Ep   30/200 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        81 ns | loss=0.32458 | eps=0.199
+2026-04-20 14:03:31,663 [INFO] train: Connecting to device and discovering frequency space...
+2026-04-20 14:03:31,663 [INFO] freq_space: Discovering frequency space from device...
+2026-04-20 14:03:31,720 [INFO] freq_space: Device has 8 CPUs
+2026-04-20 14:03:31,792 [INFO] freq_space: Cluster representative CPU0 (27 freqs, 864000–3475200 kHz): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-20 14:03:32,007 [INFO] freq_space: Cluster representative CPU3 (30 freqs, 960000–3916800 kHz): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-20 14:03:32,178 [INFO] freq_space: Cluster representative CPU6 (35 freqs, 288000–4435200 kHz): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 14:03:32,302 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-20 14:03:32,359 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-20 14:03:32,359 [INFO] freq_space: Union CPU freqs (51): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2630400, 2707200, 2822400, 2860800, 2937600, 3052800, 3091200, 3168000, 3283200, 3321600, 3398400, 3475200, 3513600, 3552000, 3628800, 3667200, 3744000, 3782400, 3859200, 3897600, 3916800, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-20 14:03:32,359 [INFO] train: FrequencySpace(union_cpu_freqs=51, ddr_freqs=11, ddrqos_freqs=2, llcc_freqs=9, num_cpus=8, total_combinations=80,784)
+2026-04-20 14:03:32,359 [INFO] train: Total action space : 80,784 combinations
+2026-04-20 14:03:32,359 [INFO] train: Frequency space cached to freq_space_cache.json
+2026-04-20 14:03:33,569 [INFO] agent: DoubleDQNAgent: state_dim=7, n_actions=80,784, device=cpu
+2026-04-20 14:03:33,569 [INFO] train: 
+Starting training: 200 episodes × up to 20 steps each
+
+2026-04-20 14:03:49,636 [INFO] env: [NEW BEST] latency=122 ns | cpu=1248000 kHz | ddr=5333000 kHz | ddrqos=0 | llcc=1211000 kHz | CPU3 (taskset 8 / 0x8)
+2026-04-20 14:04:20,473 [INFO] env: [NEW BEST] latency=91 ns | cpu=3475200 kHz | ddr=4224000 kHz | ddrqos=0 | llcc=933000 kHz | CPU2 (taskset 4 / 0x4)
+2026-04-20 14:08:16,200 [INFO] env: [NEW BEST] latency=85 ns | cpu=3475200 kHz | ddr=4780000 kHz | ddrqos=1 | llcc=933000 kHz | CPU1 (taskset 2 / 0x2)
+2026-04-20 14:09:39,313 [INFO] env: [NEW BEST] latency=76 ns | cpu=4243200 kHz | ddr=2736000 kHz | ddrqos=1 | llcc=806000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-20 14:09:51,375 [INFO] train: Ep    1/200 | reward=    -0.00 | ep_best_lat=        76 ns | global_best=        76 ns | loss=0.00000 | eps=1.000
+2026-04-20 14:57:40,610 [INFO] train: Ep   10/200 | reward=    -0.00 | ep_best_lat=        84 ns | global_best=        76 ns | loss=0.00623 | eps=0.663
+2026-04-20 15:49:26,056 [INFO] train: Ep   20/200 | reward=    -0.00 | ep_best_lat=        83 ns | global_best=        76 ns | loss=0.00154 | eps=0.363
+2026-04-20 15:56:41,333 [INFO] env: [NEW BEST] latency=75 ns | cpu=4358400 kHz | ddr=4224000 kHz | ddrqos=1 | llcc=282000 kHz | CPU6 (taskset 64 / 0x40)
+2026-04-20 16:37:42,010 [INFO] train: Ep   30/200 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        75 ns | loss=0.00124 | eps=0.199
+2026-04-20 17:23:28,589 [INFO] train: Ep   40/200 | reward=    -0.00 | ep_best_lat=        89 ns | global_best=        75 ns | loss=0.00167 | eps=0.109
+2026-04-20 18:14:41,202 [INFO] train: Ep   50/200 | reward=    -0.00 | ep_best_lat=        84 ns | global_best=        75 ns | loss=0.00137 | eps=0.060
+2026-04-20 18:14:41,413 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-20 19:04:42,628 [INFO] train: Ep   60/200 | reward=    -0.00 | ep_best_lat=        90 ns | global_best=        75 ns | loss=0.00051 | eps=0.050
+2026-04-20 20:00:07,239 [INFO] train: Ep   70/200 | reward=    -0.00 | ep_best_lat=        92 ns | global_best=        75 ns | loss=0.00022 | eps=0.050
+2026-04-20 20:58:27,095 [INFO] train: Ep   80/200 | reward=    -0.00 | ep_best_lat=        93 ns | global_best=        75 ns | loss=0.00782 | eps=0.050
+2026-04-20 22:07:08,344 [INFO] train: Ep   90/200 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        75 ns | loss=0.00016 | eps=0.050
+2026-04-20 23:04:29,163 [INFO] train: Ep  100/200 | reward=    -0.00 | ep_best_lat=        98 ns | global_best=        75 ns | loss=0.00056 | eps=0.050
+2026-04-20 23:04:29,346 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-21 00:04:38,692 [INFO] train: Ep  110/200 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        75 ns | loss=0.00127 | eps=0.050
+2026-04-21 00:51:33,823 [INFO] train: Ep  120/200 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        75 ns | loss=0.00085 | eps=0.050
+2026-04-21 01:39:05,545 [INFO] train: Ep  130/200 | reward=    -0.00 | ep_best_lat=        86 ns | global_best=        75 ns | loss=0.00120 | eps=0.050
+2026-04-21 02:32:06,848 [INFO] train: Ep  140/200 | reward=    -0.00 | ep_best_lat=        87 ns | global_best=        75 ns | loss=0.00007 | eps=0.050
+2026-04-21 03:24:50,923 [INFO] train: Ep  150/200 | reward=    -0.00 | ep_best_lat=        76 ns | global_best=        75 ns | loss=0.00027 | eps=0.050
+2026-04-21 03:24:51,113 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-21 04:16:02,939 [INFO] train: Ep  160/200 | reward=    -0.00 | ep_best_lat=        88 ns | global_best=        75 ns | loss=0.00024 | eps=0.050
+2026-04-21 05:10:22,954 [INFO] train: Ep  170/200 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        75 ns | loss=0.00035 | eps=0.050
+2026-04-21 05:58:20,271 [INFO] train: Ep  180/200 | reward=    -0.00 | ep_best_lat=        85 ns | global_best=        75 ns | loss=0.00013 | eps=0.050
+2026-04-21 06:52:29,364 [INFO] train: Ep  190/200 | reward=    -0.00 | ep_best_lat=        96 ns | global_best=        75 ns | loss=0.00040 | eps=0.050
+2026-04-21 07:43:22,059 [INFO] train: Ep  200/200 | reward=    -0.00 | ep_best_lat=        81 ns | global_best=        75 ns | loss=0.00057 | eps=0.050
+2026-04-21 07:43:22,259 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-21 07:43:22,405 [INFO] agent: Agent saved to checkpoint.pt
+2026-04-21 07:43:22,406 [INFO] train: 
+=================================================================
+2026-04-21 07:43:22,406 [INFO] train: TRAINING COMPLETE
+2026-04-21 07:43:22,406 [INFO] train: =================================================================
+2026-04-21 07:43:22,406 [INFO] train:   Total steps      : 4,000
+2026-04-21 07:43:22,406 [INFO] train:   Global best lat  : 75 ns
+2026-04-21 07:43:22,406 [INFO] train:   Best config      : {'cpu_freq': 4358400, 'ddr_freq': 4224000, 'ddrqos_freq': 1, 'llcc_freq': 282000, 'target_cpu': 6, 'taskset_mask': '64', 'taskset_mask_hex': '0x40', 'latency_ns': 75}
+2026-04-21 07:43:22,406 [INFO] train:   Results log      : results.jsonl
+2026-04-21 07:43:22,406 [INFO] train:   Best config file : best_config.json
+2026-04-21 07:43:22,416 [INFO] train: 
+=================================================================
+2026-04-21 07:43:22,416 [INFO] train:   BEST CONFIGURATION
+2026-04-21 07:43:22,417 [INFO] train: =================================================================
+2026-04-21 07:43:22,417 [INFO] train:   CPU frequency  :    4,358,400 kHz
+2026-04-21 07:43:22,417 [INFO] train:   DDR boost      :    4,224,000 kHz
+2026-04-21 07:43:22,417 [INFO] train:   DDRQOS boost   :            1
+2026-04-21 07:43:22,417 [INFO] train:   LLCC boost     :      282,000 kHz
+2026-04-21 07:43:22,417 [INFO] train:   Target CPU     : CPU6  (taskset 64)
+2026-04-21 07:43:22,417 [INFO] train:   Best latency   :           75 ns
+2026-04-21 07:43:22,417 [INFO] train: =================================================================
+2026-04-21 07:43:22,417 [INFO] train: 
+Running 5 verification benchmarks on device...
+2026-04-21 07:43:33,354 [INFO] train:   Run 1/5: 82 ns
+2026-04-21 07:43:44,144 [INFO] train:   Run 2/5: 81 ns
+2026-04-21 07:43:55,140 [INFO] train:   Run 3/5: 83 ns
+2026-04-21 07:44:06,110 [INFO] train:   Run 4/5: 83 ns
+2026-04-21 07:44:17,045 [INFO] train:   Run 5/5: 82 ns
+2026-04-21 07:44:17,045 [INFO] train: 
+  Mean :           82 ns
+2026-04-21 07:44:17,045 [INFO] train:   Std  :            1 ns
+2026-04-21 07:44:17,045 [INFO] train:   Min  :           81 ns
+2026-04-21 07:44:17,045 [INFO] train:   Max  :           83 ns
+2026-04-21 07:44:17,045 [INFO] train: 
+=================================================================
+2026-04-21 07:44:17,045 [INFO] train:   REPRODUCE WITH THESE ADB COMMANDS
+2026-04-21 07:44:17,045 [INFO] train: =================================================================
+2026-04-21 07:44:17,045 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_max_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_min_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_max_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_min_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 4224000 > /sys/devices/system/cpu/bus_dcvs/DDR/boost_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 1 > /sys/devices/system/cpu/bus_dcvs/DDRQOS/boost_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell echo 282000 > /sys/devices/system/cpu/bus_dcvs/LLCC/boost_freq
+2026-04-21 07:44:17,047 [INFO] train: adb shell taskset 64 /data/local/tmp/FullRandLat memlat -min-buffer-size-kb 40960 -max-buffer-size-kb 40960
+2026-04-21 07:44:17,047 [INFO] train: =================================================================
+2026-04-22 11:11:44,638 [INFO] freq_space: Discovering frequency space from device...
+2026-04-22 11:11:44,691 [INFO] freq_space: Device has 8 CPUs
+2026-04-22 11:11:44,743 [INFO] freq_space: Cluster representative CPU0 (27 freqs, 864000–3475200 kHz): [864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3475200]
+2026-04-22 11:11:44,900 [INFO] freq_space: Cluster representative CPU3 (30 freqs, 960000–3916800 kHz): [960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2707200, 2822400, 2937600, 3052800, 3168000, 3283200, 3398400, 3513600, 3628800, 3744000, 3859200, 3916800]
+2026-04-22 11:11:45,057 [INFO] freq_space: Cluster representative CPU6 (35 freqs, 288000–4435200 kHz): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2400000, 2630400, 2860800, 3091200, 3321600, 3552000, 3667200, 3782400, 3897600, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-22 11:11:45,163 [INFO] freq_space: DDR available freqs (11): [547000, 1353000, 1555000, 1708000, 2092000, 2736000, 3187000, 3686000, 4224000, 4780000, 5333000]
+2026-04-22 11:11:45,216 [INFO] freq_space: LLCC available freqs (9): [282000, 350000, 533000, 600000, 806000, 933000, 1066000, 1211000, 1350000]
+2026-04-22 11:11:45,216 [INFO] freq_space: Union CPU freqs (51): [288000, 384000, 518400, 576000, 672000, 768000, 864000, 960000, 1056000, 1152000, 1248000, 1344000, 1440000, 1536000, 1632000, 1728000, 1824000, 1920000, 2016000, 2112000, 2208000, 2304000, 2400000, 2496000, 2592000, 2630400, 2707200, 2822400, 2860800, 2937600, 3052800, 3091200, 3168000, 3283200, 3321600, 3398400, 3475200, 3513600, 3552000, 3628800, 3667200, 3744000, 3782400, 3859200, 3897600, 3916800, 4012800, 4128000, 4243200, 4358400, 4435200]
+2026-04-22 11:11:45,227 [INFO] train: 
+=================================================================
+2026-04-22 11:11:45,227 [INFO] train:   BEST CONFIGURATION
+2026-04-22 11:11:45,227 [INFO] train: =================================================================
+2026-04-22 11:11:45,227 [INFO] train:   CPU frequency  :    4,358,400 kHz
+2026-04-22 11:11:45,227 [INFO] train:   DDR boost      :    4,224,000 kHz
+2026-04-22 11:11:45,227 [INFO] train:   DDRQOS boost   :            1
+2026-04-22 11:11:45,227 [INFO] train:   LLCC boost     :      282,000 kHz
+2026-04-22 11:11:45,227 [INFO] train:   Target CPU     : CPU6  (taskset 64)
+2026-04-22 11:11:45,227 [INFO] train:   Best latency   :           75 ns
+2026-04-22 11:11:45,228 [INFO] train: =================================================================
+2026-04-22 11:11:45,228 [INFO] train: 
+Running 5 verification benchmarks on device...
+2026-04-22 11:11:57,122 [INFO] train:   Run 1/5: 89 ns
+2026-04-22 11:12:09,058 [INFO] train:   Run 2/5: 89 ns
+2026-04-22 11:12:20,973 [INFO] train:   Run 3/5: 89 ns
+2026-04-22 11:12:32,901 [INFO] train:   Run 4/5: 89 ns
+2026-04-22 11:12:44,860 [INFO] train:   Run 5/5: 90 ns
+2026-04-22 11:12:44,862 [INFO] train: 
+  Mean :           89 ns
+2026-04-22 11:12:44,862 [INFO] train:   Std  :            0 ns
+2026-04-22 11:12:44,863 [INFO] train:   Min  :           89 ns
+2026-04-22 11:12:44,863 [INFO] train:   Max  :           90 ns
+2026-04-22 11:12:44,863 [INFO] train: 
+=================================================================
+2026-04-22 11:12:44,863 [INFO] train:   REPRODUCE WITH THESE ADB COMMANDS
+2026-04-22 11:12:44,863 [INFO] train: =================================================================
+2026-04-22 11:12:44,863 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+2026-04-22 11:12:44,863 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+2026-04-22 11:12:44,863 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq
+2026-04-22 11:12:44,863 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq
+2026-04-22 11:12:44,863 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_max_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_min_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_max_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy3/scaling_min_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_max_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4358400 > /sys/devices/system/cpu/cpufreq/policy6/scaling_min_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 4224000 > /sys/devices/system/cpu/bus_dcvs/DDR/boost_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 1 > /sys/devices/system/cpu/bus_dcvs/DDRQOS/boost_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell echo 282000 > /sys/devices/system/cpu/bus_dcvs/LLCC/boost_freq
+2026-04-22 11:12:44,864 [INFO] train: adb shell taskset 64 /data/local/tmp/FullRandLat memlat -min-buffer-size-kb 40960 -max-buffer-size-kb 40960
+2026-04-22 11:12:44,865 [INFO] train: =================================================================

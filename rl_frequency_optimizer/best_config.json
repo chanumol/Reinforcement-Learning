@@ -1,0 +1,10 @@
+{
+  "cpu_freq": 4358400,
+  "ddr_freq": 4224000,
+  "ddrqos_freq": 1,
+  "llcc_freq": 282000,
+  "target_cpu": 6,
+  "taskset_mask": "64",
+  "taskset_mask_hex": "0x40",
+  "latency_ns": 75
+}
